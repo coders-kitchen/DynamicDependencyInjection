@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+version '1.0.0'
+group 'com.coders-kitchen.examples'
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+	compile 'javax:javaee-web-api:6.0'
+}
